@@ -13,7 +13,7 @@ const About = () => {
           <div className="w-1/2 flex flex-col items-center justify-center gap-4">
           <CardItem
             translateZ="50"
-            className="text-2xl font-bold text-white"
+            className="text-3xl font-bold text-white"
           >
             About Our Club
           </CardItem>
@@ -50,7 +50,7 @@ const About = () => {
           <div className="w-1/2 flex flex-col items-center justify-center gap-4">
             <CardItem
               translateZ="50"
-              className="text-2xl font-bold text-white"
+              className="text-3xl font-bold text-white"
             >
               Join our next event
             </CardItem>
