@@ -1,6 +1,6 @@
-import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
+
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
-import Link from "next/link";
+import Nav from "../components/nav";
 
 const Navbar = () => {
   return (
@@ -8,35 +8,7 @@ const Navbar = () => {
       <div className="h-12">
         <TextHoverEffect text="CSSC" />
       </div>
-      <NavigationMenu>
-        <NavigationMenuList>
-          <NavigationMenuItem>
-            <Link href="/docs" legacyBehavior passHref>
-                <p className="text-white px-4 py-2">Home</p>
-            </Link>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-            <Link href="/docs" legacyBehavior passHref>
-            <p className="text-white px-4 py-2">Services</p>
-            </Link>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-            <Link href="/docs" legacyBehavior passHref>
-            <p className="text-white px-4 py-2">Testimonials</p>
-            </Link>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-            <Link href="/docs" legacyBehavior passHref>
-            <p className="text-white px-4 py-2">About us</p>
-            </Link>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-            <Link href="/docs" legacyBehavior passHref>
-            <p className="text-white px-4 py-2">Contact</p>
-            </Link>
-          </NavigationMenuItem>
-        </NavigationMenuList>
-      </NavigationMenu>
+      <Nav/>
     </div>
   );
 }
