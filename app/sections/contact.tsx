@@ -1,5 +1,4 @@
 import ContactForm from "../components/contactForm";
-import SectionTitle from "../components/section_title";
 import Map from "../components/map";
 
 const Contact = () => {

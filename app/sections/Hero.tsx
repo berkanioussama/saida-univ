@@ -1,5 +1,3 @@
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
-import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 
 const Hero = () => {

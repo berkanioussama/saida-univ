@@ -1,7 +1,6 @@
 "use client";
  
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
@@ -59,7 +58,7 @@ const About = () => {
               translateZ="60"
               className="text-neutral-300 max-w-sm mt-2 "
             >
-              Don't miss out on the opportunity to grow
+              Don&apos;t miss out on the opportunity to grow
             </CardItem>
           </div>
         </CardBody>
