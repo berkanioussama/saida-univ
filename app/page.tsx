@@ -10,7 +10,7 @@ import Contact from "./sections/contact";
 export default function Home() {
   return (
     <BackgroundBeamsWithCollision>
-      <div className="flex flex-col bg-mainBg">
+      <div className="flex flex-col bg-mainBg w-full">
         <Navbar/>
         <Hero />
         <Services />
