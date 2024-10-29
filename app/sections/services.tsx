@@ -4,9 +4,9 @@ import Service from "../components/service";
 
 const Services = () => {
   return (
-    <div className="flex flex-col gap-24">
+    <div className="flex flex-col gap-24" id="services">
       <SectionTitle title="Our Services" />
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center justify-center">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:px-16 gap-8 items-center justify-center">
         <Service
           title="Guest Lectures"
           description="Expand your knowledge with our engaging lectures led by industry experts and experienced speakers. Covering a wide range of topics from emerging technologies to career development, these sessions provide valuable insights and inspiration to help you succeed in the tech world"
