@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="flex flex-col" id="about" >
       <CardContainer className="inter-var w-full">
-        <CardBody className=" flex flex-col md:flex-row gap-8 relative group/card border-black/[0.1] w-full h-auto rounded-xl p-6 lg:px-16 border">
+        <CardBody className=" flex flex-col md:flex-row gap-8 relative group/card border-black/[0.1] w-full h-auto rounded-xl p-6 lg:px-16 xl:px-24 border">
           <div className="md:w-1/2 flex flex-col items-center justify-center gap-4">
             <CardItem
               translateZ="50"
