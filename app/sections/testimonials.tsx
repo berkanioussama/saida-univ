@@ -1,6 +1,7 @@
 "use client";
  
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards"
+import SectionTitle from "../components/section_title";
 
 const Testimonials = () => {
 
@@ -38,7 +39,7 @@ const Testimonials = () => {
   
   return (
     <div className="h-[40rem] rounded-md flex flex-col gap-24 antialiased items-center justify-center relative overflow-hidden">
-      <h2 className="text-5xl font-bold text-white text-center">Testimonials</h2>
+      <SectionTitle title="Testimonials" />
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
