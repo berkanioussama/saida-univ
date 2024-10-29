@@ -38,7 +38,7 @@ const Testimonials = () => {
   ];
   
   return (
-    <div className="h-[40rem] rounded-md flex flex-col gap-24 antialiased items-center justify-center relative overflow-hidden">
+    <div className="h-[40rem] rounded-md flex flex-col gap-24 antialiased items-center justify-center relative overflow-hidden" id="testimonials">
       <SectionTitle title="Testimonials" />
       <InfiniteMovingCards
         items={testimonials}

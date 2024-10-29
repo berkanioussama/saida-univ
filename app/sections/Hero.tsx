@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     
-      <div className="h-svh flex flex-col items-center justify-center text-center text-white">
+      <div className="h-svh flex flex-col items-center justify-center text-center text-white" id="hero">
         <TypewriterEffectSmooth words={words} />
         <h3 className="text-xl md:text-2xl xl:text-3xl font-semibold">Your Gateway to Innovation and Knowledge</h3>
       </div>
